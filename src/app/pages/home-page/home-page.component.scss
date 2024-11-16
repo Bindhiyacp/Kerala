@@ -6,7 +6,7 @@ h1{
   background-color: aquamarine;
   position: absolute;
   z-index: 1;
-  margin-top: 20px;
+  // margin-top: 20px;
   width: 100vh;
   opacity: 50%;
 }
@@ -15,11 +15,14 @@ h2{
   padding: 20px;
   margin: 10px;
 }
-app-my-card{
-  margin-left: 60px;
-  padding: 40px;
-  // display: grid;
-  // grid-template-columns: repeat(3, 3fr);
-  // overflow-x: scroll;
-}
 
+.card{
+  margin-left: 70px;
+  background-color: transparent;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+app-my-card{
+  margin-bottom: 30px;
+}

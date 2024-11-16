@@ -1,0 +1,25 @@
+h1{
+  color:rgb(13, 34, 91);
+  padding: 10px;
+  // margin-left: 20px;
+  margin-right: 10px;
+  // background-color: aquamarine;
+  // position: absolute;
+  // z-index: 1;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+  width: 100vh;
+  // opacity: 50%;
+}
+
+.card{
+  margin-left: 70px;
+  background-color: transparent;
+  border: none;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+}
+app-my-card{
+  margin-bottom: 30px;
+}

@@ -1,0 +1,10 @@
+
+
+<div>
+  @for (item of categories; track item) {
+    <h4>{{item}}</h4>
+
+           <app-owl-carosel [category]="item"></app-owl-carosel>
+  }
+</div>
+

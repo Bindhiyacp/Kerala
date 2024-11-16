@@ -1,0 +1,8 @@
+<h1>Delivery Units</h1>
+<div class="card">
+@for (item of dulist; track item.id) {
+
+  <app-my-card [data]="item"></app-my-card>
+
+}
+</div>

@@ -12,7 +12,17 @@ export interface mycard {
 export interface myproductcard{
   id: number,
   title: string,
+  price:number,
   description:string,
   image: string,
   categories: string
+  rating:{
+    rate:number,
+    count:number
+  }
+}
+
+export interface from{
+  email:string,
+  password:string
 }
